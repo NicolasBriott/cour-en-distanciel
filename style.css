@@ -1,0 +1,312 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+
+body{
+  background: url(../Ingrédients/burger.png) fixed 0 0;
+  background-repeat: no-repeat;
+  height: 25vh;
+  background-color: #2A2A2D;
+  position: relative;
+  z-index: 1;
+
+}
+
+
+.commande{
+  display: flex;
+  flex-direction: column;
+  height: 110vh;
+  margin-top: 90px;
+  background-color:#2A2A2D;
+  border-top-right-radius:25px ;
+  border-top-left-radius:25px ;
+  
+ 
+
+}
+
+.top{
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 29px;
+  margin-right: 29px;
+  margin-top: 35px;
+}
+
+.retour{
+  display: flex;
+  width: 32px;
+  height: 32px;
+  background-color: #466F7C;
+  border-style:none;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.croix{
+ 
+ 
+}
+
+.TypeDeCommande{
+  display: flex;
+  justify-content: center;
+  
+  width: 200px;
+  height: 32px;
+  background-color: #466F7C;
+  border-radius: 50px;
+  border-style: none;
+}
+
+.seul{
+  width: 60px;
+  display: flex;
+  margin-right: 10px;
+  margin-left: 22px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 50px;
+  background-color: #466F7C;
+  border-style: none;
+}
+
+.TxtSeul{
+  color:hsla(0, 0%, 100%, 0.5);
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 1.05em;
+}
+
+.ImgSeul{
+
+}
+
+
+.Partagé{
+  margin-top: 3px;
+  width: 102px;
+  height: 26px;
+  margin-right: 1px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #60CDC0;
+  border-style: none;
+  border-radius: 50px;
+}
+
+.TxtPartagé{
+  color:hsl(0, 0%, 100%);
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 1.05em;
+}
+
+.cards{
+  display: flex;
+  
+  margin-left: 29px;
+  margin-right: 29px;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.card1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 5px;
+  width: 310px;
+  height: 126px;
+  background-color: white;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+
+.PartieDuHaut{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.PartieGauche{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.quantité{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#ffffff;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 0.8em;
+  background-color: #22253A;
+  width: 17px;
+  height: 17px;
+  border-radius: 3px;
+
+}
+
+.quantité2{
+  margin-left: 15px;
+  color:#22253A;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 1.05em;
+}
+
+.quantité3{
+  margin-left: 10px;
+  color:#22253A;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 1.05em;
+}
+
+.quantité4 {
+ 
+  color:#22253A;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 1.05em;
+  margin-right: 10px;
+}
+
+.total {
+  color:#22253A;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 1.05em;
+}
+
+.prix{
+  color:#60CDC0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 1.05em;
+}
+
+.PartieMilieu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.PartieBasse{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.barre{
+  width: 69px;
+  height: 3px;
+  background-color: #22253A;
+  margin-left: 252px;
+  margin-bottom: -6px;
+  margin-top: -15px;
+
+}
+
+
+.card2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 5px;
+  width: 310px;
+  height: 126px;
+  background-color: white;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 25px;
+
+}
+
+.card3{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 5px;
+  width: 310px;
+  height: 126px;
+  background-color: white;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 25px;
+  margin-bottom: 40px;
+
+}
+
+
+.plus{
+  margin-top: 15px;
+  margin-left: 29px;
+  margin-right: 29px;
+  padding-left: 10px;
+  display: flex;
+  background-color: hwb(194 27% 51% / 0.25);
+  width: 320px;
+  height: 36px;
+  border-radius: 5px;
+  border-style: none;
+  align-items: center
+}
+
+.txt{
+  color:hsla(0, 0%, 100%, 0.5);
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 0.95em;
+}
+
+.rectangle{
+  margin-right: 70px;
+}
+
+.rectangle2{
+  margin-right: 50px;
+}
+
+.rectangle3{
+  margin-right: 80px;
+}
+
+
+.cross {
+  margin-top:5px;
+}
+
+.delimitation{
+  margin-top: 55px;
+  width: 400px;
+  background-color: #ffffff;
+  height: 4px;
+}
+
+
+.payement{
+  margin-top: 55px;
+  display: flex;
+  margin-left: 29px;
+  margin-right: 29px;
+  width: 320px;
+  height: 42px;
+  border-radius: 50px;
+  background-color: #466F7C;
+}
